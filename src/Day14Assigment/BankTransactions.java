@@ -19,6 +19,8 @@ public class BankTransactions {
 	//Allows user to perform their interested operation
 void userOperation()
 {
+	
+	try {
 	int userChoice = 0;
 	String transOpt=null, addChoice=null;
 	do {
@@ -70,7 +72,16 @@ void userOperation()
 			 addChoice = scanner.nextLine();
 		}
 	}while( addChoice.equalsIgnoreCase("yes"));
+	}
+	
+	catch (Exception e) {
+		System.out.println("Invalid Account details.....");
+	}
+	finally {
+		System.out.println("Whatever happens.....");
+	}
 }
+
 
 int ageCalculation (String dob) {
 	int age = 0;
