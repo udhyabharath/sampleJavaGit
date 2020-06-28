@@ -5,6 +5,9 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Receiver implements Runnable {
 	private Data myData;
 	
+	
+	
+
 	public Receiver(Data data) {
 		myData = data;
 	}
