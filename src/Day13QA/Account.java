@@ -37,22 +37,11 @@ public class Account{
 	}
 	for (Double mynum : myDoubleArray) {
 		System.out.println("Balance:" +mynum);
-		//System.out.println(mynum);
+		
 	}
 	}
 	
-	//void sumCollection() {
-		//double sum =0;
-		/*for (int i = 0; i < myArray.size(); i++) {
-			sum = sum + Double.parseDouble(myArray.get(i).toString());
-			System.out.println("The sum till now is "+sum);
-		}*/
-		//for (Double myNum : myArray)  {
-			//sum = sum + Double.parseDouble(myNum.toString());
-			//System.out.println("The sum till now is "+sum);
-	//	}
-		//System.out.println("The final sum is "+sum);
-//	}
+	
 	public static void main(String[] args) {
 		Account ac = new Account();
 		ac.addMembers();
